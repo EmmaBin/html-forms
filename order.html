@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order a Melongram!</title>
+</head>
+   
+<body>
+<header>
+    <h1>Order a Melongram!</h1>
+</header>
+
+<section id="intro">
+    <p>
+    There's no better way to show a loved one you care than with a Melongram.
+    </p>
+    <p>
+    Each Melongram comes with a custom message printed on high-quality cardstock
+    and your choice of a hand-picked, premium melon.
+    </p>
+</section>
+
+<section id="melon-options">
+<h2>Melon Options</h2>
+
+<p>Choose from one of these melons:</p>
+<table>
+    <tr>
+        <td>Watermelon</td>
+        <td>$1,200.00</td>
+    </tr>
+    <tr>
+        <td>Canteloupe</td>
+        <td>$400.00</td>
+    </tr>
+    <tr>
+        <td>Honeydew</td> 
+        <td>$1,750.00</td>
+    </tr>
+</table>
+</section>
+
+<section id="order-form">
+<h2>Order Form</h2>
+<form>
+    <div>
+    Your name
+    <label for="input-name"></label>
+    <input type="text" name="name" id="input-name">
+    </div>
+
+    <div>
+    Who are we sending this to?
+    <label for="input-receipient"></label>
+    <input type="text" name="recipient" id="input-recipient">
+    </div>
+
+<div>
+Choose a melon
+<label for="menu-of-options"></label>
+<select name="melon" id="menu-of-options">
+ <fieldset> 
+    <legend>What kind of melon would you like?</legend> 
+    <option value = "watermelon">
+    Watermelon</option>
+    <option value = "canteloupe">
+    Canteloupe</option>
+    <option value="honeydew">
+    Honeydew</option>
+</fieldset> 
+</div>
+
+<div>
+When should we deliver?
+<fieldset>
+    <legend>When would you like your order delivered?</legend>
+    <input type="radio" name="time" value="am">Morning
+    <input type="radio" name="time" value="pm">Evening
+    <input type="radio" name="time" value="any">Any Time
+</fieldset>
+</div>
+
+<div>
+Enter your message:
+<label for="enter-message"></label>
+<input type="textarea" name="message" id="enter-message">
+</div>
+<div>s
+Subscribe to our newsletter
+<label for="subscribe-to-newsletter"></label>
+<input type="checkbox" name="subscribe" value="yes" id="subscribe-to-newsletter">
+Yes
+</div>
+<label for="submit-button"></label>
+<button type="btn">Submit</button>
+</form>
+</section>
+</body>
